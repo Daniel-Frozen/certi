@@ -1,0 +1,40 @@
+.containerHome {
+	position: absolute;
+	top: 9%;
+	height: 91%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image img#imageHome {
+	position: absolute;
+	top: 9%;
+	height: 91%;
+	width: 100%;
+}
+
+.buttonsHome {
+	position: absolute;
+	display: flex;
+	bottom: 50%;
+	width: 55%;
+	height: 6%;
+}
+
+a#a, a#b {
+	display: flex;
+	width: 50%;
+	height: 100%;
+	background-color: #EEEEEE;
+	color: #000;
+	border-radius: 5px;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	margin: 0% 3%;	
+	font-size: 150%;	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}

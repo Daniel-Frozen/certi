@@ -1,0 +1,57 @@
+.containerMenu {
+	position: absolute;
+  height: 9%;
+	width: 100%;
+  background: #1F2738;
+	display: flex;
+	align-items: center;
+}
+
+.tittleMenu {
+	position: relative;
+	width: 25%;
+	left: 2%;
+	color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 150%;
+}
+
+.linksRight {
+	position: relative;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	width: 75%;
+	height: 100%;
+
+
+}
+
+a#linkHome, a#linkStarships, a#linkPilots {
+	position: relative;
+	padding: 0% 4%;
+	display: flex;
+	align-items: center;
+	border-left: 1px solid white;
+	height: 100%;
+	color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 150%;
+	text-decoration: none;
+}
+
+a#linkHomeColor, a#linkStarshipsColor, a#linkPilotsColor {
+	position: relative;
+	padding: 0% 4%;
+	display: flex;
+	align-items: center;
+	border-left: 1px solid white;
+	height: 100%;
+	color: #F56F36;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 150%;
+	text-decoration: none;
+}

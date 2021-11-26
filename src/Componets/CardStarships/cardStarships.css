@@ -1,0 +1,39 @@
+.cardStarships {
+	width: 20%;
+	height: 100%;
+	background: #EEEEEE;
+	margin-left: 4%;
+	margin-bottom: 2%;
+	border: 1px solid #1F2738;
+}
+
+.imageCard {
+	height: 80%;
+	width: 100%;
+	text-align: center;
+}
+
+.imageCard img#imageCard {
+	height: 100%;
+	max-width: 100%;
+}
+
+.nameCard {
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 100%;	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background: #1F2738;
+	color: #EEEEEE;
+}
+
+.cardStarships:hover {
+	border: 1px solid #F56F36;
+}
+
+.cardStarships:hover .nameCard {	
+	background: #F56F36;
+}
